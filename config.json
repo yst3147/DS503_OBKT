@@ -1,0 +1,140 @@
+{
+    "train_config": {
+        "batch_size": 128,
+        "num_epochs": 10,
+        "train_ratio": 0.8,
+        "learning_rate": 0.001,
+        "optimizer": "adam",
+        "seq_len": 100
+    },
+    "dkt": {
+        "emb_size": 30,
+        "hidden_size": 30
+    },
+    
+    "kqn": {
+        "emb_size": 30,
+        "hidden_size": 30
+    },
+    "odkt": {
+        "emb_size": 30,
+        "hidden_size": 30
+    },
+    "osdkt": {
+        "emb_size": 30,
+        "hidden_size": 30
+    },
+    "dkt+": {
+        "emb_size": 30,
+        "hidden_size": 30,
+        "lambda_r": 0.01,
+        "lambda_w1": 0.003,
+        "lambda_w2": 3.0
+    },
+    "dkvmn": {
+        "dim_s": 30,
+        "size_m": 30
+    },
+    "sigdkvmn": {
+        "dim_s": 50,
+        "size_m": 20
+    },
+    "osdkvmn": {
+        "dim_s": 50,
+        "size_m": 20
+    },
+    "odkvmn": {
+        "dim_s": 50,
+        "size_m": 20
+    },
+    "sakt": {
+        "n": 100,
+        "d": 100,
+        "num_attn_heads": 5,
+        "dropout": 0.8
+    },
+    "osakt": {
+        "n": 100,
+        "d": 100,
+        "num_attn_heads": 5,
+        "dropout": 0.2
+    },
+    "ossakt": {
+        "n": 100,
+        "d": 100,
+        "num_attn_heads": 5,
+        "dropout": 0.2
+    },
+    "saint": {
+        "n": 100,
+        "d": 30,
+        "num_attn_heads": 5,
+        "dropout": 0.6
+    },
+    "osaint": {
+        "n": 100,
+        "d": 30,
+        "num_attn_heads": 5,
+        "dropout": 0.6
+    },
+    "ossaint": {
+        "n": 100,
+        "d": 30,
+        "num_attn_heads": 5,
+        "dropout": 0.6
+    },
+    "gkt": {
+        "hidden_size": 30,
+        "num_attn_heads": 2,
+        "method": "PAM"
+    },
+    "ogkt": {
+        "hidden_size": 30,
+        "num_attn_heads": 2,
+        "method": "PAM"
+    },
+    "osgkt": {
+        "hidden_size": 30,
+        "batch_size": 4,
+        "seq_len": 100
+    },
+    "siggkt": {
+        "hidden_size": 30,
+        "num_attn_heads": 2,
+        "method": "SIGPAM"
+    }, 
+    "gsakt": {
+        "n": 100,
+        "d": 30,
+        "num_attn_heads": 5,
+        "dropout": 0.2
+    },
+    "gdkt": {
+        "emb_size": 30,
+        "hidden_size": 30,
+        "dropout": 0.2
+    },
+    "jwdkt": {
+        "emb_size": 30,
+        "hidden_size": 30
+    },
+    "ngsakt": {
+        "n": 100,
+        "d": 30,
+        "num_attn_heads": 5,
+        "dropout": 0.2
+    },
+    "olstm": {
+        "hidden_size": 30
+    },
+    "new_model": {"hidden_size": 30   
+    },
+    "new_lstm": {
+        "hidden_size": 30,
+        "output_size": 1
+    },
+    "atkt": {
+        "skill_dim": 30,
+        "answer_dim": 30,
+        "hidden_dim": 30   }
+}
